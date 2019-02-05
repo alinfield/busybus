@@ -1,0 +1,92 @@
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  background-color: #d3d3d3;
+  color: black;
+}
+
+nav {
+  margin: 0 auto;
+  padding:10px 0px 30px 15px;
+  position: fixed;
+  width:420px;
+  background-color: black;
+}
+
+.menu {
+  font-size: 3em;
+  color: black;
+}
+
+.route-list {
+  padding-top: 70px;
+  font-family: arial;
+  line-height: 1.25;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+.line {
+  padding: 5%;
+  margin-bottom: 10px;
+  width: 420px;
+  height: 70px;
+  box-sizing: border-box;
+
+}
+
+.content {
+  border-bottom: solid black;
+  border-bottom-width: thin;
+  display: inline-block;
+  text-align: left;
+  padding: 3%;
+  width: 93%;
+  height: 70px;
+  float: left;
+  background-color: #d3d3d3
+}
+
+.bus-number {
+  position: absolute;
+  display: inline-block;
+  float: left;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.frequency {
+  float: right;
+  text-align:center;
+  padding-right: 3%;
+  padding-top: 10px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.arrow {
+  display: inline-block;
+  position: relative;
+  padding-top: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-left: 20%;
+}
+
+h3 {
+  font-size: 1.2em;
+  padding-left: 20%;
+}
