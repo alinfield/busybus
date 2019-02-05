@@ -17,19 +17,28 @@ body {
 
 nav {
   margin: 0 auto;
-  padding:10px 0px 30px 15px;
+  padding:20px 0px 30px 15px;
   position: fixed;
   width:420px;
-  background-color: black;
+  background-color: white;
 }
 
-.menu {
-  font-size: 3em;
-  color: black;
+.icon {
+  display: inline-block;
+
+}
+
+img {
+  display: inline-block;
+  padding-top: 30px;
+  margin: 0 auto;
+  position: fixed;
+  width: 420px;
+  background-color: white;
 }
 
 .route-list {
-  padding-top: 70px;
+  padding-top: 350px;
   font-family: arial;
   line-height: 1.25;
   width: 420px;
@@ -58,7 +67,6 @@ nav {
 }
 
 .bus-number {
-  position: absolute;
   display: inline-block;
   float: left;
   font-weight: 600;
@@ -76,7 +84,6 @@ nav {
 
 .arrow {
   display: inline-block;
-  position: relative;
   padding-top: 20px;
 }
 
