@@ -24,13 +24,6 @@ nav {
   background-image: url(../searchfield.png);
   background-repeat: no-repeat;
   background-position: center bottom 30px;
-
-}
-
-i {
-  padding-left: 3%;
-  position: fixed;
-  top: 10px;
 }
 
 .cancel {
@@ -64,7 +57,7 @@ img {
   padding: 5%;
   margin-bottom: 10px;
   width: 420px;
-  height: 70px;
+  height: 60px;
   box-sizing: border-box;
 
 }
@@ -74,9 +67,10 @@ img {
   border-bottom-width: thin;
   display: inline-block;
   text-align: left;
+  margin: auto;
   padding: 3%;
   width: 93%;
-  height: 70px;
+  height: 70%
   background-color: #d3d3d3
 }
 
@@ -98,6 +92,7 @@ img {
 
 .arrow {
   display: inline-block;
+  position: relative;
   padding-top: 10px;
 }
 
