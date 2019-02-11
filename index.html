@@ -10,22 +10,34 @@
   </head>
   <body>
     <section class="container">
-      <div class="map">
+      <header class="status">
+        <img src="status.png"; alt="status";>
+      </header>
+      <section class="map">
         <img src="map.png"; alt="map";>
-      </div>
+      </section>
       <nav>
         <div class=nav-bar>
-        <i class="fas fa-bars fa-2x" aria-hidden="true"></i>
-        <div class= search> </div>
-        <div class= cancel>Cancel</div>
+          <a href= "#menu" class= "menu">
+          <i class="fas fa-bars fa-2x" aria-hidden="true"></i>
+          <a/>
+          <input type= "text" placeholder="Washington and State">
+          <a href= "#cancel" class= "cancel">Cancel</a>
         </div>
       </nav>
-      <section class="route-list">
+      <main class="route-list">
+        <section class= "table-header">
+          <li class= "Bus">
+            <h3>Bus<h3>
+          </li>
+          <h3>Destination/Arrival Time</h3>
+          <h3>Next Up</h3>
+        </section>
         <div class="line">
           <div class="content">
-            <div class=bus-number>J14</div>
-            <div class=frequency>15 min</div>
-            <h1>103rd/Stony Island (SB)</h1>
+            <li class=bus-number>J14</li>
+            <li class=frequency>15 min</li>
+            <h1>103rd/Stony Island (Southbound)</h1>
             <h3>8 min @ 9:49am</h3>
           </div>
           <div class="arrow">
@@ -34,8 +46,8 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>6X</div>
-            <div class=frequency>Reroute</div>
+            <li class=bus-number>6X</li>
+            <li class=frequency>Reroute</li>
             <h1>Jackson Park Express</h1>
             <h3>7 min @ 9:48am</h3>
           </div>
@@ -45,9 +57,9 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>60</div>
-            <div class=frequency>20 min</div>
-            <h1>Randolph/Harbor Dr (EB)</h1>
+            <li class=bus-number>60</li>
+            <li class=frequency>20 min</li>
+            <h1>Randolph/Harbor Dr (Eastbound)</h1>
             <h3>19 min @ 10:00am</h3>
           </div>
           <div class="arrow">
@@ -56,9 +68,9 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>124</div>
-            <div class=frequency>10 min</div>
-            <h1>Navy Pier (EB)</h1>
+            <li class=bus-number>124</li>
+            <li class=frequency>10 min</li>
+            <h1>Navy Pier (Eastbound)</h1>
             <h3>3 min @ 9:44am</h3>
           </div>
           <div class="arrow">
@@ -67,9 +79,9 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>124</div>
-            <div class=frequency>10 min</div>
-            <h1>Navy Pier (SB)</h1>
+            <li class=bus-number>124</li>
+            <li class=frequency>10 min</li>
+            <h1>Navy Pier (Southbound)</h1>
             <h3>5 min @ 9:46am</h3>
           </div>
           <div class="arrow">
@@ -78,8 +90,8 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>151</div>
-            <div class=frequency>16 min</div>
+            <li class=bus-number>151</li>
+            <li class=frequency>16 min</li>
             <h1>Devon/Clark</h1>
             <h3>3 min @ 9:44am</h3>
           </div>
@@ -89,8 +101,8 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>4</div>
-            <div class=frequency>Out of Service</div>
+            <li class=bus-number>4</li>
+            <li class=frequency>Out of Service</li>
             <h1>Cottage Grove</h1>
             <h3>Resumes @ 12:10am</h3>
           </div>
@@ -100,8 +112,8 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=frequency>Out of Service</div>
-            <div class=bus-number>20</div>
+            <li class=frequency>Out of Service</li>
+            <li class=bus-number>20</li>
             <h1>Madison</h1>
             <h3>Resumes @ 12:10am</h3>
           </div>
@@ -111,8 +123,8 @@
         </div>
         <div class="line">
           <div class="content">
-            <div class=bus-number>157</div>
-            <div class=frequency>Out of Service</div>
+            <li class=bus-number>157</li>
+            <li class=frequency>Out of Service</li>
             <h1>Streeterville/Taylor</h1>
             <h3>Resumes @ 6:00am</h3>
           </div>
@@ -120,7 +132,6 @@
             <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
           </div>
         </div>
-      </section>
-    </section>
+      </main>
   </body>
 </html>
