@@ -77,7 +77,20 @@ li {
   padding-right: 10px;
   display: inline-flex;
   border-bottom: solid;
+  border-color: #979797;
   border-width: thin;
+}
+
+.col1 {
+  flex-grow: 1
+}
+
+.col2 {
+  flex-grow: 4
+}
+
+.col3 {
+  flex-grow: 1
 }
 
 .route-list {
@@ -98,7 +111,7 @@ li {
 }
 
 .content {
-  border-bottom: solid black;
+  border-bottom: solid #979797;
   border-bottom-width: thin;
   display: inline-block;
   text-align: left;
