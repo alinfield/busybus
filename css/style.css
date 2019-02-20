@@ -18,7 +18,7 @@ body {
 
 nav {
   margin: 0 auto;
-  padding:15px 0px 30px 15px;
+  padding:15px 0px 20px 15px;
   position: fixed;
   width:420px;
   background-color: white;
@@ -69,6 +69,8 @@ img {
 li {
   list-style-type: none;
 }
+
+
 
 .table-header {
   width: 100%;
@@ -160,4 +162,5 @@ h2 {
 h3 {
   font-size: 1.2em;
   padding-left: 15%;
+  color: #979797;
 }
